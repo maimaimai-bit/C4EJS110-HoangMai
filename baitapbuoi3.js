@@ -103,9 +103,10 @@ sheepSize[sheepSize.indexOf(bigSheep)] = 8;
 console.log ('After sheering, here is my flock:');
 console.log (...sheepSize); 
 for (let m=1; m<=3; m++) {
-        for (let i=0; i<sheepSize.length; i++) {
-        sheepSize[i]+=50
-    } console.log (`MONTH ${m}`);
+        // for (let i=0; i<sheepSize.length; i++) {
+        // sheepSize[i]+=50 }
+    sheepSize = sheepSize.map(a => (a+50));
+    console.log (`MONTH ${m}`);
     console.log ('One month has passed. My sheep have grown, and here are there sizes:');
     console.log (...sheepSize);
 } let totalSize = sheepSize.reduce((a,b) => a+b, 0);
