@@ -125,14 +125,18 @@ for (let i=0; i<colors.length; i++) {
     }
 }
 }
-//10
+//10 
+{
 let askUser = prompt ('Enter a sequence of names, separated by comma');
 let array = askUser.split(',');
 array = array.map(a => `<${a}>`); 
 alert (array); 
+}
 //11
+{
 let askUser = prompt ('Enter a sequence of number, separated by comma');
 let array = askUser.split(',');
 array = array.map(Number);
 array = array.filter(a => a%2==1);
 alert (array);
+}
