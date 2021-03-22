@@ -59,7 +59,7 @@ else {
 }
 //6
 let x = Number (prompt('Enter a number'));
-if (x>0, x<4.5) {
+if (x>0 && x<4.5) {
     alert ('Your number is in the lower half of the 0-9 range.')
 } else if (x<9) {
     alert ('Your number is in the higher half of the 0-9 range.')
@@ -67,7 +67,7 @@ if (x>0, x<4.5) {
 //7
 let x = Number (prompt ('Enter x'));
 let n = Number (prompt ('Enter n'));
-if (x>0, x<(n/2)) {
+if (x>0 && x<(n/2)) {
     alert (`Number ${x} is in the lower half of ${n}`);
 } else if (x<n) {
     alert (`Number ${x} is in the higher half of ${n}`);
