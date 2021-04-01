@@ -1,0 +1,28 @@
+.bai1 {
+    color: red;
+}
+#bai2 {
+    background-color: red;
+}
+.bai3 {
+    font-size: 24px;
+}
+#bai4 {
+    font-size: 3em;
+    background: wheat
+}
+#div2 h1 {
+    color: blue;
+}
+a[target] {
+    color: yellow;
+}
+ul>li {
+    font-weight: bold;
+}
+.item > span {
+    font-size: 18px;
+}
+.item > div > span {
+    font-style: italic;
+}
