@@ -106,16 +106,16 @@ function bai12() {
         items.push (newItem);
         console.log (items);
         items1.insertAdjacentHTML ('beforeend', 
-            `<li id="newitem">${newItem}</li>`
-            )
+            `<li id="newitem">${newItem}</li>` )
+//12.11
+        setTimeout (() => {
+            let itemReset = document.getElementById("newitem");
+            itemReset.remove();
+            items.splice (items.length-1, 1);
+            console.log (items);}, 7000)
+            
         }
     )
-//12.11 ->
-setTimeout (() => {
-    let itemReset = document.getElementById("newitem");
-    itemReset.remove();
-    items.splice (items.length-1, 1);
-    console.log (items);}, 7000)
 //12.12-12.16
 let itemList = document.querySelectorAll("#items1 > li");
 console.log(itemList);
