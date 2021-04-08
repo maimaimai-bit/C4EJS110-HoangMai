@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai tap buoi 8 DOM</title>
+    <link rel="stylesheet" href="btvn8.css"/>
+    <script src="btvn8.js" defer></script>
+    <script src="https://kit.fontawesome.com/dfb7590c37.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="counter">
+      <button id="up">+</button>
+      <p id="num">0</p>
+      <button id="down">-</button>
+  </div>  
+  <hr>
+  <div id="timer">
+        <input type="number" id="time" placeholder="Set your time">
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+        <p id="display"></p>
+  </div>
+  <hr>
+  <div id="quoteRandomizer"> 
+    <quote>
+        <p id="text">hh</p>
+        <cite id="author">hhh</cite>
+    </quote>  
+    <br>
+    <br>
+    <button id="reload"><i class="fas fa-redo"></i> Reload</button>
+  </div>
+  <hr>
+  <div id="timesheet">
+    <input id="project" type="text" placeholder="Enter project">
+    <input id="task" type="text" placeholder="Enter task">
+    <input id="timeSpent" type="number" placeholder="Time spent">
+    <button id="add">Add</button>
+    <br>
+    <br>
+    <table>
+        <thead id="thead">
+            <th>Project</th>
+            <th>Task</th>
+            <th>Time spent</th>
+        </thead>
+        <tbody id="tbody">
+            <tr>
+                <td>Project test 1</td>
+                <td>Task test 1</td>
+                <td>0</td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+</body>
+</html>

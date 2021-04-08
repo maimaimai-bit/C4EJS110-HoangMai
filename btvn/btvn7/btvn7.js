@@ -38,8 +38,10 @@ function bai7() {
     let input = document.getElementById("input");
     input.addEventListener('keydown', (e) => {
         console.log(e.key);
+        console.log(e);
     })
 }
+bai7();
 function bai8() {
     alert ('Hi, I am Mai. One thing I wish to do this year is learning the basics of coding.');
 }
@@ -96,7 +98,7 @@ function bai12() {
     }
 //12.5-12.10
     let button12 = document.getElementById("button12");
-    console.log(button12);
+    console.dir(button12);
     let input12 = document.getElementById("input12");
     console.log(input12);
     button12.addEventListener ('click', () => {
@@ -112,7 +114,7 @@ function bai12() {
             let itemReset = document.getElementById("newitem");
             itemReset.remove();
             items.splice (items.length-1, 1);
-            console.log (items);}, 7000)
+            console.log (items);}, 4000)
             
         }
     )

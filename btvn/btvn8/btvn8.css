@@ -1,0 +1,40 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+#counter {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+button {
+    border-radius: 0%;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+#counter > button {
+    height: 20px;
+    width: 20px;
+    margin: auto;
+    border-radius: 0%;
+    border: none;
+}
+input {
+    border-radius: 0%;
+    font-family: 'Courier New', Courier, monospace;
+}
+#quoteRandomizer > button {
+    background-color: white;
+}
+#author {
+    font-size: 12px;
+}
+table, th, td, tr {
+    padding: 3px;
+    font-size: 14px;
+    border: 1px solid;
+    border-collapse: collapse
+}
+.right {
+    float: right;
+    margin: auto;
+}
