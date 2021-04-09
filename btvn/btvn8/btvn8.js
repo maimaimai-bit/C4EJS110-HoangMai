@@ -2,14 +2,16 @@ function counter() {
     let up = document.getElementById("up");
     let down = document.getElementById("down");
     let num = document.getElementById("num");
-    let numVal = Number (num.innerHTML);
+    // let numVal = Number (num.innerHTML);
     up.addEventListener ("click", () => {
-        numVal++;
-        num.innerHTML = numVal;
+        num.innerHTML++;
+        // numVal++;
+        // num.innerHTML = numVal;
     })
     down.addEventListener ("click", () => {
-        numVal--;
-        num.innerHTML = numVal;
+        num.innerHTML--;
+        // numVal--;
+        // num.innerHTML = numVal;
     })
 }
 counter();
@@ -413,7 +415,9 @@ function timesheet() {
             newProject.value = timeSheetData[i].project;
             newTask.value = timeSheetData[i].task;
             newTime.value = timeSheetData[i].timeSpent;
-            add.outerHTML = `<button id="update">Update</button>`;
+            if (add.outerHTML !== `<button id="update">Update</button>`) {
+                add.outerHTML = `<button id="update">Update</button>`
+            };
             clear.addEventListener ('click', () => {update.outerHTML = `<button id="add">Add</button>`});
             let update = document.getElementById("update");
             update.addEventListener ('click', () => {
@@ -428,7 +432,6 @@ function timesheet() {
                         <button id="remove${i}">x</button> <button id="update${i}" class="right">U</button>
                     </td>
                 </tr>`
-                console.log(tbodyRow[i]);
             })
         })
     }
