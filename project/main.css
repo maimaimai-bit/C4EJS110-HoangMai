@@ -1,0 +1,282 @@
+* { 
+    padding: 0; 
+    margin: 0; 
+    border: none; 
+}    
+body {
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+#header {
+    background: #094c72;
+}
+#header ul {
+    background: #094c72;
+    list-style-type: none;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#header li {
+    display: inline-block;
+    padding: 12px 15px 12px 15px;
+    font-size: 15px;
+}
+#search {
+    width: 300px;
+    height: 22px;
+    margin: -12px;
+    border-radius: 5px;
+}
+#logo {
+    font-weight: bold;
+}
+.right {
+    float: right;
+}
+.right:hover {
+    background: #055a8c;
+}
+#menu {
+    display: none;
+}
+#menu ul {
+    background: #0079bf;
+    list-style-type: none;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#menu li {
+    display: inline-block;
+    padding: 5px 15px 5px 15px;
+    font-size: 13px;
+}
+#menu li:hover {
+    font-weight: bold;
+    background: #0079bf;
+}
+#banner {
+    position: relative;
+}
+#bannerimg {
+    width: 100%;
+}
+#bannertext {
+    position: absolute;
+    top: 140px;
+    right: 15px;
+    padding: 20px;
+}
+#bannerbutton {
+    position: absolute;
+    bottom: 140px;
+    right: 15px;
+    padding: 20px;
+    text-align: center;
+    font-size: 13px;
+    display: none;
+}
+.bannerbutton {
+    color: #e4f0f6;
+    padding: 0px 0px 8px 0px;
+    font-size: 18px;
+}
+.bannerbutton:hover {
+    color: #f9f9f9;
+    text-decoration: underline;
+}
+#bannertext h2 {
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+}
+#des {
+    font-size: 16px;
+    font-style: italic;
+    padding-top: 8px;
+    color: #f9f9f9;
+}
+.button {
+    background-color: #055a8c; 
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+#container {
+    width: auto;
+    border: 0px;
+    padding: 0px;
+    overflow: auto;
+    margin: auto;
+    background: #f9f9f9;
+}
+#account {
+     width: 25%;
+     float: left;
+     margin: 40px 5px 40px 30px;
+}
+.bxh {
+     float: left;
+     margin: 2%;
+     margin: 40px 5px 40px 5px;
+}
+.today {
+     width: 35%
+}
+.time {
+     width: 33%
+}
+#container h1 {
+     text-transform: uppercase;
+     font-size: 15px;
+     font-weight: normal;
+     text-align: center;
+     background: #f9f9f9;
+     color: #094c72;
+     padding-bottom: 5px;
+}
+#container h1:hover {
+    font-weight: bold;
+}
+.body {
+    width: auto;
+    background: white;
+    box-shadow: 0.5px 1.5px 1.5px 0px lightgray;
+}
+.account {
+    height: 60px;
+}
+.xephang {
+    height: auto;
+}
+#login {
+    font-size: 12px;
+    padding: 15px;
+    text-align: center;
+}
+.button1 {
+    background-color: #0079bf; 
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-top: 15px;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+.button2 {
+    background-color: #f9f9f9; 
+    border: solid 2px;
+    border-radius: 10px;
+    color: #0079bf;
+    margin-top: 15px;
+    margin-right: -10px;
+    padding: 6px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+.button1:hover {
+    background-color: #055a8c;
+}
+.button2:hover {
+    border-color: #055a8c;
+    color: #055a8c;
+}
+#decorimg {
+    width: 100%;
+    padding-top: 15px;
+}
+#quote {
+    font-size: 17px;
+    padding: 25px 5px 15px 2px;
+    text-align: center;
+    font-style: italic;
+    color: #094c72;
+    background-image: url("https://www.onlygfx.com/wp-content/uploads/2019/03/14-white-grunge-brush-stroke-13.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#cite {
+    font-size: 15px;
+    text-align: right;
+    padding-right: 20px;
+    margin-top: -10px;
+    font-style: italic;
+    color: #055a8c;
+}
+hr {
+    border: none;
+    height: 1.1px;
+    margin: 8px 0px 8px -25px;
+    background-color: #e4f0f6
+}
+#footer ul {
+    background: #0079bf;
+    list-style-type: none;
+    color: #e4f0f6;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#footer li {
+    display: inline-block;
+    padding: 15px 10px 15px 15px;
+    font-size: 14px;
+}
+#footer p {
+    background: #0079bf;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+#footer li:hover {
+    color: white;
+    background: #0079bf
+}
+#footer i {
+    font-size: 30px;
+}
+.xephang ol {
+    padding: 15px 25px 0px 45px;
+}
+.xephang li {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.xephang p {
+    display: inline-block;
+}
+.song {
+    font-weight: bold;
+}
+.song:hover {
+    text-decoration: underline;
+}
+.artist {
+    font-style: italic;
+    font-weight: normal;
+}
+.view {
+    color: #0079bf;
+    font-weight: normal;
+    font-size: 12px;
+    float: right;
+}
+#xemthem {
+    display: flex;
+    justify-content: center;
+}
+#xemthem p {
+    color: #094c72;
+    font-weight: normal;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+#xemthem p:hover {
+    text-decoration: underline;
+}
