@@ -9,27 +9,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
+<!-- Hello, this is header -->
     <div id="header">
         <ul class="animate__animated animate__fadeInDown">
             <li id="logo"><i class="fas fa-headphones-alt"></i> THƯ VIỆN ÂM NHẠC</li>
-            <li><input type="search" id="search" placeholder="  Tìm theo bài hát, ca sĩ hoặc vòng hợp âm"></li>
+            <li><input type="search" id="search" placeholder="Tìm theo bài hát, ca sĩ hoặc vòng hợp âm"></li>
             <li class="right">Đăng nhập</li>
             <li class="right">Liên hệ/Góp ý</li>
             <li class="right">Yêu cầu bài hát</li>
             <li class="right">Đăng bài hát</li>
         </ul>
     </div>
-    <div id="menu">
-        <ul>
-            <li>Thư viện</li>
-            <li>Bảng xếp hạng</li>
-            <li>Playlist</li>
-            <li>Khóa học</li>
-            <li>Diễn đàn</li>
-            <li class="right">Tải ứng dụng</li>
-        </ul>
-    </div>
-    <div id="container">
+<!-- Hello, this is trang chu -->
+    <div id="homepage" class="container">
         <div id="banner">
             <img id="bannerimg" src="https://i.imgur.com/rxh17is.jpg" alt="banner">
             <div id="bannertext">
@@ -42,8 +34,8 @@
             </div>
         </div>
         <div id="account">
-            <div class="heading">
-                <h1>Thư viện của tôi</h1>
+            <div>
+                <h1 class="headingclickable">Thư viện của tôi</h1>
             </div>
             <div class="body account">
                 <p id="login">Lưu bài hát yêu thích, tạo playlist, ghi chú, bình luận và hơn thế nữa!</p>
@@ -55,8 +47,8 @@
             </div>
         </div>
         <div class="bxh today">
-            <div class="heading">
-                <h1>Top 100 hôm nay</h1>
+            <div>
+                <h1 class="headingclickable">Top 100 hôm nay</h1>
             </div>
             <div class="body xephang"> 
                 <ol>
@@ -115,8 +107,8 @@
             </div>
         </div>
         <div class="bxh time">
-            <div class="heading">
-                <h1>Top 100 mọi thời đại</h1>
+            <div>
+                <h1 class="headingclickable">Top 100 mọi thời đại</h1>
             </div>
             <div class="body xephang">
                 <ol>
@@ -145,6 +137,62 @@
             </div>
         </div>
     </div>
+<!-- Hello, this is dang bai hat -->
+    <div id="dangbaihat" class="container">
+        <div id="huongdan" class="right">
+            <div>
+                <h1 class="heading">Hướng dẫn</h1>
+            </div>
+            <div class="body">
+                <p>
+                    <strong>Cảm ơn bạn rất nhiều!</strong>
+                    <br>
+                    Vì đã cùng những thành viên khác đóng góp vào Thư Viện Âm Nhạc. Cộng đồng yêu âm nhạc cần những người như bạn. 
+                    <br>
+                    <br>
+                    <strong>Để bài đăng của bạn nhanh được duyệt nhất, hãy...</strong>
+                    <br>
+                    - Điền lời bài hát đầy đủ
+                    <br>
+                    - Bao gồm file nhạc mp3, wav hoặc ogg
+                    <br>
+                    - Thể loại, giúp phân loại bài hát
+                    <br>
+                    - Thông tin ca sĩ, tác giả đúng và đủ
+                    <br>
+                    <br>
+                    <em>Xin cảm ơn bạn đã đóng góp!</em>
+                </p>
+            </div>
+        </div>
+        <div id="upload">
+            <div>
+                <h1 class="heading">Đăng bài hát mới</h1>
+            </div>
+            <div class="body relative">
+                <div id="inputleft">
+                    <p>Tên bài hát</p>
+                    <input class="halfinput" type="text" placeholder="Ví dụ: Cát Bụi">
+                    <p>Ca sĩ/Ban nhạc</p>
+                    <input class="halfinput" type="text" placeholder="Ví dụ: Cẩm Ly, Đan Trường">
+                </div>
+                <div id="inputright">
+                    <p>Thể loại</p>
+                    <input class="halfinput" type="text" placeholder="Ví dụ: Nhạc Vàng">
+                    <p>Tác giả</p>
+                    <input class="halfinput" type="text" placeholder="Ví dụ: Trịnh Công Sơn">
+                </div>
+                <p id="linkp">Link bài hát</p>
+                <input id="linkinput" type="text" placeholder="Điền link hợp lệ bạn nhé!">
+                <p id="lyricsp">Lời bài hát</p>
+                <textarea id="lyricsinput"></textarea>
+            </div>
+            <div class="center">
+                <button class="button1">Đăng bài hát</button>
+            </div>
+        </div>
+    </div>
+<!-- Hello, this is footer -->
     <div id="footer">
         <ul>
             <li>

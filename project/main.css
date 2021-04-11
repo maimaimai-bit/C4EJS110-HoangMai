@@ -3,6 +3,14 @@
     margin: 0; 
     border: none; 
 }    
+/* hello, day la display cua cac page  */
+/* #homepage {
+    display: none;
+} */
+#dangbaihat {
+    display: none;
+}
+/* day la phan header  */
 body {
     font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
 }
@@ -26,6 +34,7 @@ body {
     height: 22px;
     margin: -12px;
     border-radius: 5px;
+    padding: 8px;
 }
 #logo {
     font-weight: bold;
@@ -33,28 +42,10 @@ body {
 .right {
     float: right;
 }
-.right:hover {
+#header .right:hover {
     background: #055a8c;
 }
-#menu {
-    display: none;
-}
-#menu ul {
-    background: #0079bf;
-    list-style-type: none;
-    color: white;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-#menu li {
-    display: inline-block;
-    padding: 5px 15px 5px 15px;
-    font-size: 13px;
-}
-#menu li:hover {
-    font-weight: bold;
-    background: #0079bf;
-}
+/* day la phan homepage + footer*/
 #banner {
     position: relative;
 }
@@ -103,7 +94,7 @@ body {
     text-align: center;
     text-decoration: none;
 }
-#container {
+.container {
     width: auto;
     border: 0px;
     padding: 0px;
@@ -127,7 +118,7 @@ body {
 .time {
      width: 33%
 }
-#container h1 {
+.headingclickable {
      text-transform: uppercase;
      font-size: 15px;
      font-weight: normal;
@@ -136,7 +127,7 @@ body {
      color: #094c72;
      padding-bottom: 5px;
 }
-#container h1:hover {
+.headingclickable:hover {
     font-weight: bold;
 }
 .body {
@@ -235,7 +226,6 @@ hr {
 }
 #footer li:hover {
     color: white;
-    background: #0079bf
 }
 #footer i {
     font-size: 30px;
@@ -280,3 +270,84 @@ hr {
 #xemthem p:hover {
     text-decoration: underline;
 }
+/* hello, day la css cho header features */
+.heading {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    background: #f9f9f9;
+    color: #094c72;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+#huongdan {
+    width: 30%;
+    margin: 25px;
+}
+#huongdan p {
+    padding: 15px 20px 20px 25px;
+    font-size: 13px;
+    text-align: justify;
+}
+#upload {
+    width: 64%;
+    margin: 25px;
+}
+#upload p {
+    font-size: 13px;
+    font-weight: bold;
+}
+#inputleft {
+    width: 48%;
+    float: left;
+    background: none;
+}
+#inputright {
+    width: 48%;
+    float: right;
+    background: none;
+}
+#inputleft input {
+    width: 305px;
+    margin: 0px 0px -5px 20px;
+    padding: 2px 2px 2px 8px;
+    border: 1px solid black;
+}
+#inputleft p {
+    margin: 15px 0px 0px 20px;
+}
+#inputright input {
+    width: 305px;
+    margin: 0px 15px -5px 0px;
+    padding: 2px 2px 2px 8px;
+    border: 1px solid black;
+}
+#inputright p {
+    margin: 15px 15px 0px 0px;
+}
+#linkinput {
+    width: 631px;
+    margin: 0px 15px 10px 20px;
+    padding: 2px 2px 2px 8px;
+    border: 1px solid black;
+}
+#lyricsinput {
+    width: 631px;
+    height: 150px;
+    margin: 0px 15px 20px 20px;
+    padding: 8px 2px 2px 8px;
+    border: 1px solid black;
+}
+#linkp {
+    margin: 0px 15px 0px 20px;
+    padding-top: 120px;
+}
+#lyricsp {
+    margin: 0px 15px 5px 20px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+
