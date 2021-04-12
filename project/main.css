@@ -13,8 +13,11 @@
 #yeucaubaihat {
     display: none
 }
-/* #lienhegopy {
+#lienhegopy {
     display: none;
+}
+/* #dangnhap {
+    display: none
 } */
 /* day la phan header  */
 body {
@@ -406,4 +409,25 @@ hr {
     margin: 0px 15px 5px 20px;
     padding: 8px 2px 2px 8px;
     border: 1px solid black;
+}
+/* dangnhap*/
+.left {
+    float: left;
+}
+#loginwith {
+    margin: 0px 15px 0px 20px;
+    padding-top: 65px;
+}
+#loginwith1 > .fa-facebook {
+    color: #3b5998;
+    margin: 10px 10px 0px 20px;
+    font-size: 30px;
+}
+#loginwith1 > .fa-google {
+    color: #de5246;
+    margin: 10px 5px 0px 0px;
+    font-size: 30px;
+}
+#loginbutton {
+    margin: 15px 5px 20px 20px;
 }
