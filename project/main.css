@@ -7,7 +7,13 @@
 #homepage {
     display: none;
 }
-/* #dangbaihat {
+#dangbaihat {
+    display: none;
+}
+#yeucaubaihat {
+    display: none
+}
+/* #lienhegopy {
     display: none;
 } */
 /* day la phan header  */
@@ -41,12 +47,14 @@ body {
 }
 #logo {
     font-weight: bold;
+    cursor: pointer;
 }
 .right {
     float: right;
 }
 #header .right:hover {
     background: #055a8c;
+    cursor: pointer;
 }
 /* day la phan homepage + footer*/
 #banner {
@@ -78,6 +86,7 @@ body {
 .bannerbutton:hover {
     color: #f9f9f9;
     text-decoration: underline;
+    cursor: pointer;
 }
 #bannertext h2 {
     font-weight: bold;
@@ -133,6 +142,7 @@ body {
 }
 .headingclickable:hover {
     font-weight: bold;
+    cursor: pointer;
 }
 .body {
     width: auto;
@@ -177,10 +187,12 @@ body {
 }
 .button1:hover {
     background-color: #055a8c;
+    cursor: pointer;
 }
 .button2:hover {
     border-color: #055a8c;
     color: #055a8c;
+    cursor: pointer;
 }
 #decorimg {
     width: 100%;
@@ -230,6 +242,7 @@ hr {
 }
 #footer li:hover {
     color: white;
+    cursor: pointer;
 }
 #footer i {
     font-size: 30px;
@@ -250,6 +263,7 @@ hr {
 }
 .song:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 .artist {
     font-style: italic;
@@ -273,8 +287,10 @@ hr {
 }
 #xemthem p:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 /* hello, day la css cho header features */
+/* dang bai hat */
 .heading {
     text-transform: uppercase;
     font-size: 15px;
@@ -285,11 +301,11 @@ hr {
     padding-bottom: 5px;
     font-weight: bold;
 }
-#huongdan {
+.huongdan {
     width: 30%;
     margin: 25px;
 }
-#huongdan p {
+.huongdan p {
     padding: 15px 20px 20px 25px;
     font-size: 13px;
     text-align: justify;
@@ -302,56 +318,92 @@ hr {
     font-size: 13px;
     font-weight: bold;
 }
-#inputleft {
+.inputleft {
     width: 48%;
     float: left;
     background: none;
 }
-#inputright {
+.inputright {
     width: 48%;
     float: right;
     background: none;
 }
-#inputleft input {
+.inputleft input {
     width: 305px;
     margin: 0px 0px -5px 20px;
     padding: 2px 2px 2px 8px;
     border: 1px solid black;
 }
-#inputleft p {
+.inputleft p {
     margin: 15px 0px 0px 20px;
 }
-#inputright input {
+.inputright input {
     width: 305px;
     margin: 0px 15px -5px 0px;
     padding: 2px 2px 2px 8px;
     border: 1px solid black;
 }
-#inputright p {
+.inputright p {
     margin: 15px 15px 0px 0px;
 }
-#linkinput {
+.longinput {
     width: 631px;
     margin: 0px 15px 10px 20px;
     padding: 2px 2px 2px 8px;
     border: 1px solid black;
 }
-#lyricsinput {
+.longtextarea {
     width: 631px;
     height: 150px;
     margin: 0px 15px 20px 20px;
     padding: 8px 2px 2px 8px;
     border: 1px solid black;
 }
-#linkp {
+#linkadd {
     margin: 0px 15px 0px 20px;
     padding-top: 120px;
 }
-#lyricsp {
+#lyricsadd {
     margin: 0px 15px 5px 20px;
 }
 .center {
     display: flex;
     justify-content: center;
 }
-
+/* yeu cau bai hat */
+#request {
+    width: 64%;
+    margin: 25px;
+}
+#request p {
+    font-size: 13px;
+    font-weight: bold;
+}
+.longp {
+    margin: 0px 15px 5px 20px;
+}
+.inputdiv {
+    padding: 15px 0
+}
+/* lien he gop y */
+#contact {
+    width: 64%;
+    margin: 25px;
+}
+#contact p {
+    font-size: 13px;
+    font-weight: bold;
+}
+.longp {
+    margin: 0px 15px 5px 20px;
+}
+.inputdiv {
+    padding: 15px 0
+}
+.longtextarea1 {
+    width: 631px;
+    height: 150px;
+    margin: 0px 15px 5px 20px;
+    padding: 8px 2px 2px 8px;
+    border: 1px solid black;
+}

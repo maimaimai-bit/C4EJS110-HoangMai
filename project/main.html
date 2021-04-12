@@ -138,7 +138,7 @@
     </div>
 <!-- Hello, this is dang bai hat -->
     <div id="dangbaihat" class="container">
-        <div id="huongdan" class="right">
+        <div class="huongdan right">
             <div>
                 <h1 class="heading">Hướng dẫn</h1>
             </div>
@@ -168,26 +168,153 @@
             <div>
                 <h1 class="heading">Đăng bài hát mới</h1>
             </div>
-            <div class="body relative">
-                <div id="inputleft">
+            <div class="body">
+                <div class="inputleft">
                     <p>Tên bài hát <span style="color:red">*</span></p>
                     <input class="halfinput" type="text" placeholder="Ví dụ: Cát Bụi">
                     <p>Ca sĩ/Ban nhạc</p>
                     <input class="halfinput" type="text" placeholder="Ví dụ: Cẩm Ly, Đan Trường">
                 </div>
-                <div id="inputright">
+                <div class="inputright">
                     <p>Thể loại</p>
                     <input class="halfinput" type="text" placeholder="Ví dụ: Nhạc Vàng">
                     <p>Tác giả</p>
                     <input class="halfinput" type="text" placeholder="Ví dụ: Trịnh Công Sơn">
                 </div>
-                <p id="linkp">Link bài hát <span style="color:red">*</span></p>
-                <input id="linkinput" type="text" placeholder="Điền link hợp lệ bạn nhé!">
-                <p id="lyricsp">Lời bài hát</p>
-                <textarea id="lyricsinput"></textarea>
+                <p id="linkadd">Link bài hát <span style="color:red">*</span></p>
+                <input class="longinput" type="text" placeholder="Điền link hợp lệ bạn nhé!">
+                <p id="lyricsadd">Lời bài hát</p>
+                <textarea class="longtextarea"></textarea>
             </div>
             <div class="center">
-                <button class="button1">Đăng bài hát</button>
+                <button id="addButton" class="button1">Đăng bài hát</button>
+            </div>
+        </div>
+    </div>
+<!-- Hello, this is yeu cau bai hat -->
+    <div id="yeucaubaihat" class="container">
+        <div class="huongdan right">
+            <div>
+                <h1 class="heading">Hướng dẫn</h1>
+            </div>
+            <div class="body">
+                <p>
+                    <strong>Bạn chưa tìm thấy bài hát mình yêu thích?</strong>
+                    <br>
+                    Hãy gửi cho Thư Viện một yêu cầu, và chúng mình sẽ cố gắng nhất có thể để thêm bài hát đó vào hệ thống! Thư Viện Âm Nhạc luôn trong quá trình làm giàu và đa dạng hóa. Bạn cũng có thể tự thêm bài hát lên Thư Viện. 
+                    <br>
+                    <br>
+                    <strong>Để yêu cầu bài hát bạn mong muốn, hãy...</strong>
+                    <br>
+                    - Điền đủ tên bài hát cùng tên ca sĩ
+                    <br>
+                    - Nhớ viết đúng chính tả nhé
+                    <br>
+                    - Cho Thư Viện khoảng thời gian 7-10 ngày để xử lý yêu cầu của bạn nha! 
+                    <br>
+                    <br>
+                    <em>Xin cảm ơn bạn đã đóng góp!</em>
+                </p>
+            </div>
+        </div>
+        <div id="request">
+            <div>
+                <h1 class="heading">Yêu cầu bài hát mới</h1>
+            </div>
+            <div class="body inputdiv">
+                <p class="longp">Tên bài hát <span style="color:red">*</span></p>
+                <input class="longinput" type="text" placeholder="Ví dụ: One Thing">
+                <p class="longp">Ca sĩ/Ban nhạc <span style="color:red">*</span></p>
+                <input class="longinput" type="text" placeholder="Ví dụ: One Direction">
+            </div>
+            <div class="center">
+                <button id="addButton" class="button1">Yêu cầu bài hát</button>
+            </div>
+        </div>
+    </div>
+<!-- Hello, this is lien he gop y -->
+    <div id="lienhegopy" class="container">
+        <div class="huongdan right">
+            <div>
+                <h1 class="heading">Contact us</h1>
+            </div>
+            <div class="body">
+                <p>
+                    <strong>Bạn có điều gì muốn nói với Thư Viện?</strong>
+                    <br>
+                    Thư Viện luôn sẵn sàng tiếp nhận mọi đóng góp, liên lạc từ các bạn - cho dù đó là một lỗi trên trang web, một tính năng các bạn muốn cập nhật thêm, hay những trao đổi "for work."
+                    <br>
+                    <br>
+                    <strong>Để liên lạc nhanh nhất với Thư Viện, hãy...</strong>
+                    <br>
+                    - Điền địa chỉ e-mail bạn muốn nhận phản hồi
+                    <br>
+                    - Ghi đầy đủ chủ đề thư để chúng mình xử lý nhanh nhất nhé!
+                    <br>
+                    - Cho Thư Viện khoảng thời gian để liên lạc lại với bạn nha
+                    <br>
+                    <br>
+                    <em>Xin cảm ơn bạn đã liên hệ!</em>
+                </p>
+            </div>
+        </div>
+        <div id="contact">
+            <div>
+                <h1 class="heading">Soạn thư</h1>
+            </div>
+            <div class="body inputdiv">
+                <p class="longp">Địa chỉ E-mail của bạn <span style="color:red">*</span></p>
+                <input class="longinput" type="text" placeholder="Hãy điền địa chỉ hợp lệ nhé!">
+                <p class="longp">Chủ đề thư</p>
+                <input class="longinput" type="text" placeholder="Ví dụ: V/v quảng cáo trên website">
+                <p class="longp">Nội dung thư <span style="color:red">*</span></p>
+                <textarea class="longtextarea1"></textarea>
+            </div>
+            <div class="center">
+                <button id="addButton" class="button1">Gửi thư</button>
+            </div>
+        </div>
+    </div>
+<!-- Hello, this is dang nhap -->
+        <div id="lienhegopy" class="container">
+        <div class="huongdan right">
+            <div>
+                <h1 class="heading">Contact us</h1>
+            </div>
+            <div class="body">
+                <p>
+                    <strong>Bạn có điều gì muốn nói với Thư Viện?</strong>
+                    <br>
+                    Thư Viện luôn sẵn sàng tiếp nhận mọi đóng góp, liên lạc từ các bạn - cho dù đó là một lỗi trên trang web, một tính năng các bạn muốn cập nhật thêm, hay những trao đổi "for work."
+                    <br>
+                    <br>
+                    <strong>Để liên lạc nhanh nhất với Thư Viện, hãy...</strong>
+                    <br>
+                    - Điền địa chỉ e-mail bạn muốn nhận phản hồi
+                    <br>
+                    - Ghi đầy đủ chủ đề thư để chúng mình xử lý nhanh nhất nhé!
+                    <br>
+                    - Cho Thư Viện khoảng thời gian để liên lạc lại với bạn nha
+                    <br>
+                    <br>
+                    <em>Xin cảm ơn bạn đã liên hệ!</em>
+                </p>
+            </div>
+        </div>
+        <div id="contact">
+            <div>
+                <h1 class="heading">Soạn thư</h1>
+            </div>
+            <div class="body inputdiv">
+                <p class="longp">Địa chỉ E-mail của bạn <span style="color:red">*</span></p>
+                <input class="longinput" type="text" placeholder="Hãy điền địa chỉ hợp lệ nhé!">
+                <p class="longp">Chủ đề thư</p>
+                <input class="longinput" type="text" placeholder="Ví dụ: V/v quảng cáo trên website">
+                <p class="longp">Nội dung thư <span style="color:red">*</span></p>
+                <textarea class="longtextarea1"></textarea>
+            </div>
+            <div class="center">
+                <button id="addButton" class="button1">Gửi thư</button>
             </div>
         </div>
     </div>
