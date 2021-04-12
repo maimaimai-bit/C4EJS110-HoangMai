@@ -4,18 +4,21 @@
     border: none; 
 }    
 /* hello, day la display cua cac page  */
-/* #homepage {
-    display: none;
-} */
-#dangbaihat {
+#homepage {
     display: none;
 }
+/* #dangbaihat {
+    display: none;
+} */
 /* day la phan header  */
 body {
     font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 #header {
     background: #094c72;
+    position: fixed;
+    top: 0;
+    width: 100%; 
 }
 #header ul {
     background: #094c72;
@@ -47,7 +50,7 @@ body {
 }
 /* day la phan homepage + footer*/
 #banner {
-    position: relative;
+    margin-top: 0px;
 }
 #bannerimg {
     width: 100%;
@@ -101,6 +104,7 @@ body {
     overflow: auto;
     margin: auto;
     background: #f9f9f9;
+    margin-top: 40px;
 }
 #account {
      width: 25%;
