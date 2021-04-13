@@ -411,6 +411,9 @@ hr {
     border: 1px solid black;
 }
 /* dangnhap*/
+#login {
+    padding-top: 25px;
+}
 .halfinput {
     width: 200px;
     border: 1px solid black;
@@ -430,10 +433,10 @@ hr {
     padding: 10px 20px 20px 20px;
 }
 #forgetpass {
-    font-size: 12px;
+    font-size: 11px;
     color: #094c72;
     text-decoration: underline;
-    margin: -5px 0px 25px 0px !important;
+    margin: -8px 0px 10px 0px !important;
 }
 #forgetpass:hover {
     cursor: pointer;
