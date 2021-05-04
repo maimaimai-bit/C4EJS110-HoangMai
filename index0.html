@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="btvn7.js"></script>
+    <title>Entrance test</title>
+    <link rel="stylesheet" href="bai thi/thi.css" />
 </head>
 <body>
-    <h1>hello strawberry field</h1>
+    <div class="container">
+        <div id="title">
+            <h1>LUCKY NUMBER</h1>
+        </div>
+        <div id="guide">
+            <p>Hãy đoán con số đúng! Dự đoán con số của bạn trong khoảng từ 1 đến 10. Bạn được đoán tối đa 3 lần. Nếu đoán đúng, bạn sẽ được nghe 1 bài hát hay.</p>
+        </div>
+        <div id="play">
+            <input id="input" type="text" placeholder="Nhập con số của bạn">
+            <button id="button">Đoán</button>
+        </div>
+        <div id="res">
+            <p id="result"></p>
+            <iframe id="song" style="display:none" src="https://www.nhaccuatui.com/mh/auto/3LNaIJ3GxcnE" width="620" height="382" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+        </div>
+    </div>
+    <script src="bai thi/thi.js"></script>
 </body>
 </html>
